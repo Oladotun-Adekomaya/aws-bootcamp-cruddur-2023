@@ -48,4 +48,4 @@ sso_registration_scopes = sso:account:access
 EOF
 
 # login to authenticate again
-aws sso login
+#aws sso login
