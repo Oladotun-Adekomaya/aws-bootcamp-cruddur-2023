@@ -5,10 +5,11 @@
 DEFAULT_PROFILE='default'
 DEFAULT_REGION='us-east-1'
 DEFAULT_OUTPUT='text'
-SSO_START_URL='https://oladotun.awsapps.com/start/#'
+SSO_START_URL=process.env.SSO_START_URL
 SSO_REGION='us-east-1'
-SSO_ACCOUNT_ID='339712952265'
-SSO_ROLE_NAME='AdministratorAccess'
+SSO_ACCOUNT_ID=process.env.SSO_ACCOUNT_ID
+SSO_ROLE_NAME=process.env.SSO_ROLE_NAME
+
 
 
 #
